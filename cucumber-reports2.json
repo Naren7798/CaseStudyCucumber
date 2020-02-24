@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:30:00.091Z",
+        "line": 3,
+        "name": "product to be added to cart",
+        "description": "",
+        "id": "add-to-cart;product-to-be-added-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28612302800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be in login page",
+            "match": {
+              "location": "AddToCart.user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 535230000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid credentials And performs login",
+            "match": {
+              "location": "AddToCart.user_enters_valid_credentials_And_performs_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11389421600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks the product",
+            "match": {
+              "location": "AddToCart.clicks_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999729300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "selects product from drop down",
+            "match": {
+              "location": "AddToCart.selects_product_from_drop_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395792400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on add to cart",
+            "match": {
+              "location": "AddToCart.clicks_on_find_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add_to_cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "classpath:p3Add_To_Cart/Add_To_Cart.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T05:31:05.943Z",
+        "line": 12,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26849300400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to write a step with",
+            "match": {
+              "location": "Login.i_want_to_write_a_step_with()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 439172100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i enter \"lalitha\" and \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.i_enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513490300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check for the  in step",
+            "match": {
+              "location": "Login.i_check_for_the_in_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify the  in step",
+            "match": {
+              "location": "Login.i_verify_the_in_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:p2login/Login.feature",
+    "tags": []
+  }
+]
